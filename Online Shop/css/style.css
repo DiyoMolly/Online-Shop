@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,li,ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.line {
+    background: #4cb1ca;
+    height: 40px;
+}
+
+.navbar-brand{
+    font-size: 36px;
+    color: #656565;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    color: #656565;
+    font-weight: bold;
+}
+
+.item:hover{
+    color: #8f8f8f;
+}
